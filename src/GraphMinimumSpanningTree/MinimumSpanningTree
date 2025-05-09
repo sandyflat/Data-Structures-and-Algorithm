@@ -1,0 +1,28 @@
+Minimum Spanning Tree(MST)
+
+-> It is subset/subgraph of a connected, weighted graph that connects all the vertices of the graph,
+ while minimizing the total edge weight.
+
+-> Characteristics of MST:
+1. The tree connects all the vertices of the graph.
+2. The subgraph/tree is acyclic, meaning it shouldn't contains any loops or cycles.
+3. The sum of the weights of the edges in the tree is the smallest possible among all spanning ,
+   trees of the graph.
+4. A MST of a graph must have no. of edges which is V-1 edges, V= no of vertices of graph.
+
+-> Applications :
+
+1. Network Design
+2. Transportation and Logistics:
+   -> Optimizing road networks or delivery routes.
+3. Electrical Circuits:
+   -> Designing minimum-cost wiring systems.
+
+-> Algorithms to Find MST:
+
+1. Prim's Algorithm:
+   -> Starts from a single vertex and grows the MST by adding the smallest edge that connects to an
+      unvisited vertex.
+
+2. Kruskal's Algorithm:
+   -> Adds edges in increasing order of weight, ensuring no cycles.
